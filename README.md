@@ -16,10 +16,10 @@ Here are some ideas to get you started:
 -->
 
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="left" src="https://github-readme-stats.vercel.app/api?username=mob-sakai&count_private=true&show_icons=true&hide=contribs" />
+  <img align="left" src="https://github-readme-stats.vercel.app/api?username=mob-sakai&count_private=true&show_icons=true&hide=contribs" width="50%" />
 </a>
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mob-sakai&layout=compact" width="300px" />
+  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mob-sakai&layout=compact" width="35%" />
 </a>
 
 <a href="https://github.com/sponsors/mob-sakai">
