@@ -1,22 +1,12 @@
+<div align='center'>
+
 ### Hi there 👋
 
-<!--
-**mob-sakai/mob-sakai** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+![typograssy](https://typograssy.deno.dev/api?text=ENJOY%20DEVELOPMENT!%20)
 
 ![](https://github-readme-stats.vercel.app/api?username=mob-sakai&count_private=true&show_icons=true)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=mob-sakai&layout=compact&langs_count=8)
 
+![](https://github-profile-trophy.vercel.app/?username=mob-sakai&rank=-C,-B)
 
-
-![](https://user-images.githubusercontent.com/12690315/102973300-d85a8800-453f-11eb-88fa-cf7ae6e97e83.mov)
+</div>
