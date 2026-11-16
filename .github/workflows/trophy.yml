@@ -1,0 +1,34 @@
+name: 🏆 Update trophy image
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      statuses: read
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v7
+
+      - name: Generate trophy
+        uses: Erik-Donath/github-profile-trophy@eb0893b31de06841663555d10aa43eb7cf27952f
+        with:
+            username: ${{ github.repository_owner }}
+            token: ${{ github.token }}
+            file: trophy.svg
+            theme: onedark
+            max-rows: 1
+
+      - name: Commit cards
+        if: contains(fromJSON('["schedule", "workflow_dispatch"]'), github.event_name) # dependabotを使わない場合は削除
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add trophy.svg
+          git commit -m "Update trophy image" || exit 0
+          git push
